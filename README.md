@@ -1,4 +1,4 @@
-# kkaliskova.github.io
+# KlaraKaliskova.github.io
 
 Personal webpage of Klára Kalíšková, built as a static site for GitHub Pages.
 
@@ -16,7 +16,10 @@ Content is based on the original site at https://home.cerge-ei.cz/kaliskova/, re
 
 ## Publishing on GitHub Pages
 
-1. Create a GitHub account with username `kkaliskova`.
-2. Create a new public repository named exactly `kkaliskova.github.io`.
-3. Push this repository to it (see instructions from setup).
-4. In the repo's Settings → Pages, source should already default to the `main` branch root — the site will appear at `https://kkaliskova.github.io/` within a few minutes.
+1. Create a new public repository under the `KlaraKaliskova` account named exactly `KlaraKaliskova.github.io`.
+2. Push this repository to it:
+   ```
+   git remote add origin https://github.com/KlaraKaliskova/KlaraKaliskova.github.io.git
+   git push -u origin main
+   ```
+3. In the repo's Settings → Pages, source should already default to the `main` branch root — the site will appear at `https://klarakaliskova.github.io/` within a few minutes.
