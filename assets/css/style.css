@@ -59,6 +59,7 @@ h1, h2, h3, h4 {
 .site-title {
   margin: 0;
   font-size: clamp(1.8rem, 4vw, 2.4rem);
+  color: #ffffff;
 }
 
 .site-subtitle {
