@@ -27,7 +27,11 @@
 
 <main>
   <aside class="sidebar">
-    <img src="assets/img/kkaliskova.jpg" alt="Klára Kalíšková" width="200">
+    <picture>
+      <source type="image/avif" srcset="assets/img/kkaliskova-200w.avif 200w, assets/img/kkaliskova-400w.avif 400w" sizes="200px">
+      <source type="image/webp" srcset="assets/img/kkaliskova-200w.webp 200w, assets/img/kkaliskova-400w.webp 400w" sizes="200px">
+      <img src="assets/img/kkaliskova-400w.jpg" srcset="assets/img/kkaliskova-200w.jpg 200w, assets/img/kkaliskova-400w.jpg 400w" sizes="200px" alt="Klára Kalíšková" width="200" height="300" fetchpriority="high" decoding="async">
+    </picture>
     <h2>Contacts</h2>
     <div class="contact-block">
       <div class="org">
